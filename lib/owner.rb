@@ -67,7 +67,7 @@ class Owner
   end
   
   def list_pets
-    
+    @pets.each {|species| species.each {|pet| p pet} }
   end
   
   
